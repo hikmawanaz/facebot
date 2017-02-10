@@ -21,9 +21,9 @@ python facebot.py
 
 ### Configuration:
 
-* set accounts username-password in file : `accounts.txt`
-* set comments text in file : `comments.txt`
-* set shares text in file : `shares.txt`
+* set accounts username-password in file : `accounts.txt` separated by a `new line`
+* set comments text in file : `comments.txt`  separated them with `::`
+* set shares text in file : `shares.txt` separated them with `::`
 * and setup delay, id post and url to share in file : `facebot.py`
 ```python
 delay           = 10 # delay change account
